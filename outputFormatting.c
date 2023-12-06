@@ -59,7 +59,7 @@ int main (int argc, char **argv) {
     }
   } 
   else {
-    perror("Error, input filename has not been correctly specified");
+    perror("Error, usage: ./outputFormatting <file_pathname> (could receive none pathname stdin will be used)");
     exit(EXIT_FAILURE);
   }
 
